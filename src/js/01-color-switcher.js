@@ -27,7 +27,7 @@ startChangeColor() {
     }
     
     refs.startBtn.disabled = true;
-    refs.stoptBtn.disabled = false;
+    refs.stopBtn.disabled = false;
 
     this.isActive = true;
     this.intervalId = setInterval (() => backgroundColor(getRandomHexColor()), 1000)
@@ -35,7 +35,7 @@ startChangeColor() {
 
 stopChangeColor() {
     refs.startBtn.disabled = false;
-    refs.stoptBtn.disabled = true;
+    refs.stopBtn.disabled = true;
 
     clearInterval(this.intervalId);
     this.isActive = false;
@@ -47,3 +47,4 @@ const colorSwitcher = new ColorSwitcher();
 
 refs.startBtn.addEventListener('click', () => colorSwitcher.startChangeColor());
 refs.stopBtn.addEventListener('click', () => colorSwitcher.stopChangeColor());
+
