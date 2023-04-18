@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+input {
+  font-size: 25px;
+  color: black;
+  background-color: cyan;
+  padding: 30px;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  letter-spacing: 10px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.field {
+  display: inline-flex;
+  padding: 15px;
+  font-size: 50px;
+  /* font-size: 20px; */
+  text-decoration: blueviolet;
+}

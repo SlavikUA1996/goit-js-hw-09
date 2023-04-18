@@ -2,6 +2,7 @@
 import flatpickr from "flatpickr";
 // Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
+import 'flatpickr/dist/themes/dark.css';
 // all modules
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 // import Notiflix from 'notiflix';
